@@ -1,0 +1,17 @@
+opencti:
+  url: 'http://opencti:8080'
+  token: ChangeMe
+
+connector:
+  id: ChangeMe
+  type: 'EXTERNAL_IMPORT'
+  name: 'IOCTweet'
+  scope: 'Url,Domain,X-OpenCTI-Hostname,IPv4-Addr'
+  confidence_level: 100
+  log_level: 'info'
+ioctweet:
+  interval: '2'
+  consumer_key: ChangeMe
+  consumer_secret: ChangeMe
+  access_token: ChangeMe
+  access_token_secret: ChangeMe
