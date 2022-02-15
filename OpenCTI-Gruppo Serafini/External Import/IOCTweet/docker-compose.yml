@@ -1,7 +1,7 @@
 version: '3'
 services:
   connector-ioctweet:
-    image: opencti/connector-ioctweet:rolling
+    image: grupposerafini/connector-ioctweet:rolling
     environment:
       - OPENCTI_URL=http://opencti:8080
       - OPENCTI_TOKEN=ChangeMe
