@@ -1,7 +1,7 @@
 version: '3'
 services:
   connector-urlscanio:
-    image: grupposerafini/connector-urlscanio:rolling
+    image: grupposerafini/connector-urlscanio:latest
     environment:
       - OPENCTI_URL=http://opencti:8080
       - OPENCTI_TOKEN='ChangeMe'
